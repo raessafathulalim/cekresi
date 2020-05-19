@@ -1,5 +1,7 @@
 <?php
 header("Content-Type: application/json; charset=UTF-8");
+//Access-Control-Allow-Origin header with wildcard.
+header('Access-Control-Allow-Origin: *');
 require __DIR__ . '/vendor/autoload.php';
 use GuzzleHttp\Client;
 use GuzzleHttp\Message\Request;
